@@ -15,13 +15,10 @@ YOLO 객체 탐지와 바코드 스캔을 통한 무인결제보조시스템으�
 
 
 ## 기술 스택
-- **Framework**: Next.js 14 (App Router)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **State Management**: Zustand
-- **Barcode Scanner**: html5-qrcode
-- **YOLO API**: Hugging Face Spaces (FastAPI)
-- **Deployment**: Vercel (Serverless)
+- **AI**: YOLOv8
+- **Frontend**: Next.js, Tailwind CSS, Zustand
+- **Backend**: FastAPI, uvicorn, docker
+- **ect**: html5-qrcode, Vercel
 
 
 ## 주요 기능
