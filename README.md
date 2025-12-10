@@ -10,7 +10,7 @@ YOLO 객체 탐지와 바코드 스캔을 통한 무인결제보조시스템으�
 | 팀장 | 김시환 | AI        | 컴퓨터AI학부      |  |
 | 팀원 | 김미정 | AI  | 컴퓨터AI학부         | zkrkalspfls3@naver.com |
 | 팀원 | 이지우 | 웹 개발        | 수학과   | zzziwoo0120@naver.com |
-| 팀원 | 문소현 | AI           | 컴퓨터AI학부         |  |
+| 팀원 | 문소현 | AI 융합학부           | 컴퓨터AI학부         | munso03@dgu.ac.kr |
 | 팀원 | 조혜림 | 웹 개발           | 융합보안학과         | johyerim@dgu.ac.kr |
 
 
