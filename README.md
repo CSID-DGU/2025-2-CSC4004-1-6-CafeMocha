@@ -63,5 +63,9 @@ YOLO 객체 탐지와 바코드 스캔을 통한 무인결제보조시스템으�
 ## 프로젝트 화면
 | 메인 홈 화면 | 객체탐지 화면 | 바코드 인식 화면 | 결제 성공 화면 |
 | :---: | :---: | :---: | :---: |
-| <img width="2115" height="1258" src="https://github.com/user-attachments/assets/3e26a350-5541-4988-a39a-201beb33fca3" /> | <img width="1153" height="685" src="https://github.com/user-attachments/assets/c01e9038-937c-40da-b8ba-cde2809c7569" /> | <img width="703" height="419" src="https://github.com/user-attachments/assets/b200d260-1035-4968-bdf1-5133f3477940" /> | <img width="691" height="406" src="https://github.com/user-attachments/assets/6c131406-8bf1-460d-80f3-9c164d56a8cd" /> |
+| <img width="300" src="https://github.com/user-attachments/assets/3e26a350-5541-4988-a39a-201beb33fca3" /> |
+  <img width="300" src="https://github.com/user-attachments/assets/c01e9038-937c-40da-b8ba-cde2809c7569" /> |
+  <img width="300" src="https://github.com/user-attachments/assets/b200d260-1035-4968-bdf1-5133f3477940" /> |
+  <img width="300" src="https://github.com/user-attachments/assets/6c131406-8bf1-460d-80f3-9c164d56a8cd" /> |
+
 
