@@ -3,7 +3,6 @@ import { persist } from 'zustand/middleware'
 import { AppState, CartItem, Product } from '@/types'
 
 interface Store extends AppState {
-  // Actions
   setConnected: (deviceId: string) => void
   addProduct: (product: Product) => void
   removeProduct: (barcode: string) => void
@@ -24,7 +23,6 @@ export const useStore = create<Store>()(
       yoloCount: null,
       scanResult: null,
 
-  // Actions
   setConnected: (deviceId: string) =>
     set({ isConnected: true, deviceId }),
 
@@ -73,7 +71,6 @@ export const useStore = create<Store>()(
           ),
         }
       } else {
-        // 수량이 1이면 제거
         return {
           cartItems: state.cartItems.filter(
             (item) => item.product.barcode !== barcode
@@ -100,12 +97,10 @@ export const useStore = create<Store>()(
   },
     }),
     {
-      name: 'smart-cart-storage', // LocalStorage 키 이름
+      name: 'smart-cart-storage',
       partialize: (state) => ({
-        // 새로고침 후에도 유지할 상태만 저장
         isConnected: state.isConnected,
         deviceId: state.deviceId,
-        // cartItems, yoloCount, scanResult는 세션별로 관리하므로 저장하지 않음
       }),
     }
   )

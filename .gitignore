@@ -38,3 +38,7 @@ next-env.d.ts
 tailwind.config.js
 vercel.json
 
+package-lock.json
+next.config.js
+postcss.config.js
+tsconfig.json
